@@ -1,0 +1,299 @@
+{
+	"info": {
+		"_postman_id": "b818c47a-e4fa-417c-80d6-dc5965bba31c",
+		"name": "SenaSoft_2023",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1992550"
+	},
+	"item": [
+		{
+			"name": "CreateStudent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"pedro@prueba.com\",\n    \"firstName\": \"Pedro\",\n    \"lastName\": \"Perez\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:3001/api/students/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"students",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetStudents",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"pedro@prueba.com\",\n    \"firstName\": \"Pedro\",\n    \"lastName\": \"Perez\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:3001/api/students/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"students",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetStudent",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"pedro@prueba.com\",\n    \"firstName\": \"Pedro\",\n    \"lastName\": \"Perez\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:3001/api/students/650b226157644a65cc12762e",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"students",
+						"650b226157644a65cc12762e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateStudent",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"pedro@prueba.com\",\n    \"firstName\": \"Pedro\",\n    \"lastName\": \"Perez\",\n    \"birthDate\": \"1980-05-05\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:3001/api/students/650b226157644a65cc12762e",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"students",
+						"650b226157644a65cc12762e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteStudent",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"pedro@prueba.com\",\n    \"firstName\": \"Pedro\",\n    \"lastName\": \"Perez\",\n    \"birthDate\": \"1980-05-05\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:3001/api/students/650b226157644a65cc12762e",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"students",
+						"650b226157644a65cc12762e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateCourse",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"code\": \"001\",\n    \"name\": \"Matematicas 01\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:3001/api/courses/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"courses",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCourses",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"code\": \"001\",\n    \"name\": \"Matematicas 01\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:3001/api/courses/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"courses",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCourse",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"code\": \"001\",\n    \"name\": \"Matematicas 01\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:3001/api/courses/650b267ebd4c8c7cbea37b83",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"courses",
+						"650b267ebd4c8c7cbea37b83"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AssingCourse",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"code\": \"001\",\n    \"name\": \"Matematicas 01\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:3001/api/courses/650b267ebd4c8c7cbea37b83/?studentId=650b21b63400b3371947cad4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"courses",
+						"650b267ebd4c8c7cbea37b83",
+						""
+					],
+					"query": [
+						{
+							"key": "studentId",
+							"value": "650b21b63400b3371947cad4"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
