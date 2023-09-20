@@ -15,7 +15,7 @@ namespace mongodb_senasoft2023.Services
         public ConnectionService(ILogger<ConnectionService> logger)
         {
             _logger = logger;
-            MongoClient mongoClient = new MongoClient("mongodb+srv://pruebasena:0XdY1ZSX7UUwsloL@cluster0.07r8j4z.mongodb.net?retryWrites=true&w=majority");
+            MongoClient mongoClient = new MongoClient("mongodb+srv://");
             IMongoDatabase mongoDatabase = mongoClient.GetDatabase("Senasoft2023cs");
             _studentCollection = mongoDatabase.GetCollection<Student>("Students");
             _courseCollection = mongoDatabase.GetCollection<Course>("Courses");
