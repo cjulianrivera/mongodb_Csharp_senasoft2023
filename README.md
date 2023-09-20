@@ -1,6 +1,7 @@
 # senasoft2023
 
 Proyecto MongoDB
+Lenguaje C#
 
 Prerequisitos
     - Dotnet SDK 7.0 
